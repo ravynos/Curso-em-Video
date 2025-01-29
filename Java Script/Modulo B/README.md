@@ -162,3 +162,8 @@ Incremento
 
 Para simplificar e possível usar o operador 2 vezes, e será entendido que e para fazer a operação com número 1.
 
+Exemplos
+```JavaScript
+x = x + 1 x ++
+x = x - 1 x --
+```
