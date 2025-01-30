@@ -41,3 +41,29 @@ E possível acessar um objeto de varias formas, entre elas são:
 - por Seletor
 	querySelector()
 	querySelectorAll()
+
+## Eventos DOM
+
+São eventos que acontecem durante qualquer interação do usuário com o site.
+
+Por exemplo, uma \<div>, com o movimento do mouse, dentro de um elemento de uma div, pode disparar diversos eventos.
+
+Alguns desses eventos:
+
+mouseenter: Evento de entrada do mouse dentro do objeto.
+mousemove: Evento de movimentar o mouse dentro da objeto.
+mousedown: Evento de clicar no mouse e segurar.
+mouseup: Evento de soltar o botão do mouse.
+click: Evento de clicar no mouse.
+mouseout: Evento de saída do mouse do objeto.
+
+Para uma listagem completa dos eventos acesse: (https://developer.mozilla.org/en-US/docs/Web/Events)
+
+> Funções
+
+```JS
+function ação(parametro){
+bloco
+}
+```
+
