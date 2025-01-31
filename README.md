@@ -1,1 +1,0 @@
-## Repositório dedicado as anotações e projetos criados em base dos curso do curso em vídeo do professor Gustavo Guanabara.

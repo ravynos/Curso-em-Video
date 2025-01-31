@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vc é Brasileiro?</title>    
+</head>
+<body>
+    <h1>Vc é Brasileiro?</h1>
+    <p>Qual pais você nasceu?</p>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Verificar" onclick="nascionalidade()">
+    <div id="res"></div>
+    <script>
+        function nascionalidade() {
+            var pais = document.getElementById('txtpais')
+            var res = document.getElementById('res')
+            var nasc = (pais.value)
+            if (nasc == 'Brasil') {
+                res.innerHTML = 'Paranbéns, vc e Brasileiro'
+            }else {
+                res.innerHTML = `Você nasceu em ${nasc}, vc não é brasileiro.`
+            }
+        }
+    </script>
+</body>
+</html>
