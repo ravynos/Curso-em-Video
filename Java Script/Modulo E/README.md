@@ -39,3 +39,21 @@ do {
 	bloco
 } while (condição)
 ```
+
+### For
+
+```JS
+for (inicio; teste; incremento){
+
+}
+```
+
+Exemplo:
+```JS
+for (var c = 1; c<=10; c++){
+
+    console.log("Deu certo!!!")
+
+}
+```
+
