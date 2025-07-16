@@ -1,5 +1,4 @@
-""" Desafio 004 """
-
+pip install selenium pyautogui pyperclip
 """ Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e
 todas as informções possíveis sobre ele. """
 

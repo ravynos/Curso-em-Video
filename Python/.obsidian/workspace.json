@@ -11,10 +11,14 @@
             "id": "c87db1e8495b6448",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Operadores Aritméticos.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nova aba"
+              "title": "Operadores Aritméticos"
             }
           }
         ]
@@ -162,5 +166,8 @@
     }
   },
   "active": "c87db1e8495b6448",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Mundo 1/Python - Mundo 1.md",
+    "Operadores Aritméticos.md"
+  ]
 }
