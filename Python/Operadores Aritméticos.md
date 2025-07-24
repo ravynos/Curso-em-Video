@@ -56,3 +56,14 @@
 - Subtração -
 
 OBS.: Caso apresente o mesmo operador de ordem igual, deve ser considerado sempre o que aparece primeiro.
+
+Exemplos:
+
+```Python
+#Sem ordem de precedência
+5+3*2 == 16
+#Com ordem de precedência
+5+3*2 == 11
+```
+
+Note que o resultado muda, porque sem a ordem, a soma vai ser realizada primeiro, 
