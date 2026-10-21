@@ -4,3 +4,10 @@
 # Em que posição ela aparece a primeira vez.
 # Em que posição ela aparece a última vez.
 
+frase = input('Digite uma frase: ')
+
+print(frase.upper().count('A'))
+
+print(frase.lower().find('a'))
+
+print(frase.lower().rfind('a'))

@@ -2,5 +2,11 @@
 
 # Ex: Ana Maria de Souza
 # primeiro = Ana
-#ultimo = Souza
+# ultimo = Souza
 
+nome = input('Digite seu nome completo: ')
+
+nome = nome.split()
+
+print(f'''Primeiro nome: {nome[0]}
+Ultimo: {nome[-1]}''')
